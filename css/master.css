@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Arvo|Bebas+Neue|Calistoga|EB+Garamond|Lobster|Monoton|Odibee+Sans|Righteous&display=swap');
+body {
+  background: url('images/rayure.jpg');
+}
+h4 {
+  color: white;
+  background-color:black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: right;
+  font-size: 0.90em;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+font-family: 'Monoton', cursive;
+}
+h1{
+  color: #db3745;
+  background-color: #f6c245;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 4em;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  font-family: 'Righteous', cursive;
+  }
+
+img {
+  width: 100%;
+  min-height: 60vH;
+  display: flex;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fable01{
+  width: 650px;
+  min-width: 400px;
+  height: 500px;
+  max-height: 700px;
+  padding: 50px 50px 50px 20px;
+  margin: 15px;
+  color: #db3745;
+  background: url('images/image03.jpg') center no-repeat;
+
+  }
+
+
+#fable01 h2{
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+#fable01 p{
+  font-size: 1.25em;
+  text-align: left;
+  color: blue;
+  width: 65%;
+  font-family: 'Calistoga', cursive;
+
+}
+.first-colonne {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+ .first-ligne{
+   display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 50px;
+
+ }
+
+#fable02 {
+  width: 350px;
+  min-width: 200px;
+  height: 500px;
+  max-height: 700px;
+  padding: 50px;
+  margin: 15px;
+  align-items: center;
+  background:url('images/image01.jpg') right center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#fable02 h2{
+  text-align: right;
+  font-size: 4em;
+  color: orange;
+  font-family: 'Odibee Sans', cursive;
+
+}
+
+#fable02 p {
+
+  text-align: right;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Lobster', cursive;
+}
+
+#fable03 {
+  width: 650px;
+  min-width: 400px;
+  height: 400px;
+  max-height: 550px;
+  padding: 50px 50px 50px 50px;
+  margin: 15px;
+  background: url('images/image02.jpg') bottom center no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+
+}
+
+#fable03 h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+#fable03 p {
+  color: purple;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  width: 65%;
+  font-size: 0.75em;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.inner-box {
+  border: 6px solid purple;
+  border-width: : 3rem;
+  border-left-style: dashed;
+  padding: 50px;
+
+}
+
+.second-colonne {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+.second-ligne{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+}
+
+#signature{
+  width: 350px;
+  min-width: 200px;
+  height: 400px;
+  max-height: 550px;
+  color: #db3745;
+  background-color: #f6c245;
+  padding: 50px;
+  margin: 5px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+}
